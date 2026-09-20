@@ -22,7 +22,6 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"snd_chase_music","path":"sounds/snd_chase_music/snd_chase_music.yy",},},
     {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
