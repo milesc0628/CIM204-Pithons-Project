@@ -25,9 +25,12 @@
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"MagicBolt","path":"sprites/MagicBolt/MagicBolt.yy",},},
     {"id":{"name":"oPlayerSpritePlaceholder","path":"sprites/oPlayerSpritePlaceholder/oPlayerSpritePlaceholder.yy",},},
+=======
+>>>>>>> f4df2a086f3d35a94f25650980e1b57c5069ab04
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"ts_wall","path":"tilesets/ts_wall/ts_wall.yy",},},
   ],
