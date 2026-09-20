@@ -20,6 +20,8 @@
   "name":"Pithons Game",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"ts_wall","path":"tilesets/ts_wall/ts_wall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
