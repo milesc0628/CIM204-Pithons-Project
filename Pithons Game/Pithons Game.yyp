@@ -23,14 +23,14 @@
   "resources":[
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Player_Data_room","path":"rooms/Player_Data_room/Player_Data_room.yy",},},
     {"id":{"name":"MagicBolt","path":"sprites/MagicBolt/MagicBolt.yy",},},
     {"id":{"name":"oPlayerSpritePlaceholder","path":"sprites/oPlayerSpritePlaceholder/oPlayerSpritePlaceholder.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Player_Data_room","path":"rooms/Player_Data_room/Player_Data_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
