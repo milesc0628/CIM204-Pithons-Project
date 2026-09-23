@@ -24,6 +24,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"MagicBolt","path":"sprites/MagicBolt/MagicBolt.yy",},},
