@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":2,
+  "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Player_Objects_and_Sprites","folderPath":"folders/Player_Objects_and_Sprites.yy","name":"Player_Objects_and_Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -21,16 +21,21 @@
   },
   "name":"Pithons Game",
   "resources":[
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"Player_Data_room","path":"rooms/Player_Data_room/Player_Data_room.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"MagicBolt","path":"sprites/MagicBolt/MagicBolt.yy",},},
     {"id":{"name":"oPlayerSpritePlaceholder","path":"sprites/oPlayerSpritePlaceholder/oPlayerSpritePlaceholder.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"ts_wall","path":"tilesets/ts_wall/ts_wall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Player_Data_room","path":"rooms/Player_Data_room/Player_Data_room.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
