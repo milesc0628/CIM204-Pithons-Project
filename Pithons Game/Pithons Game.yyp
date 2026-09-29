@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Player_Objects_and_Sprites","folderPath":"folders/Player_Objects_and_Sprites.yy","name":"Player_Objects_and_Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -21,10 +21,13 @@
   },
   "name":"Pithons Game",
   "resources":[
+    {"id":{"name":"GameOver","path":"fonts/GameOver/GameOver.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"oGameOver","path":"objects/oGameOver/oGameOver.yy",},},
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"MagicBolt","path":"sprites/MagicBolt/MagicBolt.yy",},},
@@ -36,6 +39,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
