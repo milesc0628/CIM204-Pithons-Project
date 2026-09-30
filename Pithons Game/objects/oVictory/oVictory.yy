@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oMagicBolt",
+  "%Name":"oVictory",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":82,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oMagicBolt",
+  "name":"oVictory",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player_Objects_and_Sprites",
-    "path":"folders/Player_Objects_and_Sprites.yy",
+    "name":"Pithons Game",
+    "path":"Pithons Game.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"MagicBolt",
-    "path":"sprites/MagicBolt/MagicBolt.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
