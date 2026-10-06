@@ -1,4 +1,4 @@
-var _player = instance_nearest(x, y, oPlayer);
+var _player = instance_nearest(x, y, obj_player);
 
 if (_player != noone) {
     var _dir = point_direction(x, y, _player.x, _player.y);
