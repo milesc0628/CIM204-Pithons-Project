@@ -8,8 +8,8 @@
   "name":"oGameOver",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pithons Game",
-    "path":"Pithons Game.yyp",
+    "name":"Game_Events",
+    "path":"folders/Game_Events.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"GameOver",
+  "%Name":"Font1",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":14,
@@ -189,7 +189,7 @@
   "last":0,
   "lineHeight":18,
   "maintainGms1Font":false,
-  "name":"GameOver",
+  "name":"Font1",
   "parent":{
     "name":"Pithons Game",
     "path":"Pithons Game.yyp",
@@ -202,7 +202,7 @@
   "regenerateBitmap":false,
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
-  "sampleText":"Game Over, Try again?",
+  "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
   "sdfSpread":8,
   "size":12.0,
   "styleName":"Regular",
