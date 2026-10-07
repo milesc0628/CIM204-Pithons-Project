@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Pithons Game",
-    "path":"Pithons Game.yyp",
+    "name":"Game_Events",
+    "path":"folders/Game_Events.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

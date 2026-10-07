@@ -11,8 +11,8 @@
   "name":"oEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pithons Game",
-    "path":"Pithons Game.yyp",
+    "name":"Walking Enemy",
+    "path":"folders/Enemys/Walking Enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

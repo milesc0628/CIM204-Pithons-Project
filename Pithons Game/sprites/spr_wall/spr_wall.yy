@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Pithons Game",
-    "path":"Pithons Game.yyp",
+    "name":"Walls",
+    "path":"folders/Walls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

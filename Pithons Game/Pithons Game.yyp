@@ -10,6 +10,10 @@
   },
   "defaultScriptType":0,
   "Folders":[
+    {"$GMFolder":"","%Name":"Enemys","folderPath":"folders/Enemys.yy","name":"Enemys","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Walking Enemy","folderPath":"folders/Enemys/Walking Enemy.yy","name":"Walking Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Game_Events","folderPath":"folders/Game_Events.yy","name":"Game_Events","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Walls","folderPath":"folders/Walls.yy","name":"Walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player_Objects_and_Sprites","folderPath":"folders/Player_Objects_and_Sprites.yy","name":"Player_Objects_and_Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -21,8 +25,6 @@
   },
   "name":"Pithons Game",
   "resources":[
-    {"id":{"name":"GameOver","path":"fonts/GameOver/GameOver.yy",},},
-    {"id":{"name":"Victory","path":"fonts/Victory/Victory.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oGameOver","path":"objects/oGameOver/oGameOver.yy",},},
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},

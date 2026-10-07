@@ -9,8 +9,8 @@
   "name":"oWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pithons Game",
-    "path":"Pithons Game.yyp",
+    "name":"Walls",
+    "path":"folders/Walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,
