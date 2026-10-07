@@ -4,3 +4,5 @@ room_goto(Room1);
 
 show_debug_message("Room after goto: " + room_get_name(room));
 health = 100;
+
+

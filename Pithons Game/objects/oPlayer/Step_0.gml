@@ -1,8 +1,4 @@
-if (cooldown > 0) {
-    cooldown -= 1;
-}
-
-if (keyboard_check_pressed(vk_shift) && cooldown <= 0) {
+if (keyboard_check_pressed(vk_shift) && mana >= 10) {
 
     var move_x = 0;
     var move_y = 0;
@@ -16,9 +12,10 @@ if (keyboard_check_pressed(vk_shift) && cooldown <= 0) {
         x += move_x * 80;
         y += move_y * 80;
 
-        cooldown = 60;
+        mana -= 10;
     }
 }
+
 
 camera_set_view_pos(
     camera,
@@ -26,7 +23,13 @@ camera_set_view_pos(
     y - camera_get_view_height(camera) / 2
 );
 
+
 if (global.playerscore >= 5){
-		room_goto(rmVictory);
+    room_goto(rmVictory);
 }
-	
+
+// Mana regeneration
+if (mana < max_mana) {
+    mana += 1 / 10;
+    mana = min(mana, max_mana);
+}
