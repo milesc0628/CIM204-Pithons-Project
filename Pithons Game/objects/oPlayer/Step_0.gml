@@ -33,3 +33,24 @@ if (mana < max_mana) {
     mana += 1 / 10;
     mana = min(mana, max_mana);
 }
+
+//fire spell
+var fire_mana_cost = 20;
+
+// Cast with the 1 key
+if (has_fire_spell
+&& keyboard_check_pressed(ord("1"))
+&& fire_cooldown <= 0
+&& mana >= fire_mana_cost) {
+
+    var _fire = instance_create_layer(
+        x, y, "Instances", obj_fireball
+    );
+
+    _fire.target_x = mouse_x;
+    _fire.target_y = mouse_y;
+
+    mana -= fire_mana_cost;
+    fire_cooldown = 30;
+}
+fire_cooldown -= 1;

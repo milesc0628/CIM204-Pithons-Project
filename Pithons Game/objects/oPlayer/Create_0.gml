@@ -15,5 +15,7 @@ cooldown = 0;
 health = 100;
 global.playerscore = 0;
 
+has_fire_spell = false;
+fire_cooldown = 0;
 mana = 100;
 max_mana = 100;
