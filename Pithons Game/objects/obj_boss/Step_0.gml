@@ -1,6 +1,7 @@
-if (instance_exists(obj_player))
+// Check if player exists
+if (instance_exists(oPlayer))
 {
-    var dist = point_distance(x, y, obj_player.x, obj_player.y);
+    var dist = point_distance(x, y, oPlayer.x, oPlayer.y);
 
     // CHASE: Follow the player
     if (state == "chase")
@@ -10,7 +11,8 @@ if (instance_exists(obj_player))
         if (dist > attack_range)
         {
             var dir = point_direction(
-                x, y, obj_player.x, obj_player.y
+                x, y,
+                oPlayer.x, oPlayer.y
             );
 
             x += lengthdir_x(move_speed, dir);
@@ -18,42 +20,47 @@ if (instance_exists(obj_player))
         }
         else
         {
-            // Start charging the shockwave
+            // Start charging shockwave
             state = "charge";
             state_timer = charge_time;
             shockwave_hit = false;
         }
     }
 
-    // CHARGE: Warn the player before attacking
+    // CHARGE: Warn the player
     else if (state == "charge")
     {
         state_timer--;
 
         if (state_timer <= 0)
         {
-            // Release the shockwave
+            // Release shockwave once
             if (!shockwave_hit)
             {
-                if (dist <= attack_range)
+                var player_dist = point_distance(
+                    x, y,
+                    oPlayer.x, oPlayer.y
+                );
+
+                if (player_dist <= attack_range)
                 {
-                    if (variable_instance_exists(obj_player, "hp"))
+                    if (variable_instance_exists(oPlayer, "hp"))
                     {
-                        obj_player.hp -= damage;
+                        oPlayer.hp -= damage;
                     }
                 }
 
                 shockwave_hit = true;
             }
 
-            // Become stunned and vulnerable
+            // Stun the boss after attacking
             state = "stun";
             state_timer = stun_time;
             vulnerable = true;
         }
     }
 
-    // STUN: Player gets a damage window
+    // STUN: Vulnerable to extra damage
     else if (state == "stun")
     {
         vulnerable = true;
@@ -67,7 +74,7 @@ if (instance_exists(obj_player))
         }
     }
 
-    // RECOVER: Brief pause before chasing again
+    // RECOVER: Pause before chasing again
     else if (state == "recover")
     {
         state_timer--;
