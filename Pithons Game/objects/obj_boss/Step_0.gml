@@ -10,57 +10,45 @@ if (instance_exists(oPlayer))
 
         if (dist > attack_range)
         {
-            var dir = point_direction(
-                x, y,
-                oPlayer.x, oPlayer.y
-            );
+            var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
 
             x += lengthdir_x(move_speed, dir);
             y += lengthdir_y(move_speed, dir);
         }
         else
         {
-            // Start charging shockwave
+            // Start charging the shockwave
             state = "charge";
             state_timer = charge_time;
-            shockwave_hit = false;
         }
     }
 
-    // CHARGE: Warn the player
+    // CHARGE: Give the player time to dodge
     else if (state == "charge")
     {
         state_timer--;
 
         if (state_timer <= 0)
         {
-            // Release shockwave once
-            if (!shockwave_hit)
+            // Check distance when the shockwave hits
+            var player_dist = point_distance(
+                x, y, oPlayer.x, oPlayer.y
+            );
+
+            if (player_dist <= attack_range)
             {
-                var player_dist = point_distance(
-                    x, y,
-                    oPlayer.x, oPlayer.y
-                );
-
-                if (player_dist <= attack_range)
-                {
-                    if (variable_instance_exists(oPlayer, "hp"))
-                    {
-                        oPlayer.hp -= damage;
-                    }
-                }
-
-                shockwave_hit = true;
+                // Damage the player's health
+                oPlayer.hp = max(0, oPlayer.hp - damage);
             }
 
-            // Stun the boss after attacking
+            // Stun the boss after the attack
             state = "stun";
             state_timer = stun_time;
             vulnerable = true;
         }
     }
 
-    // STUN: Vulnerable to extra damage
+    // STUN: Boss is vulnerable to extra damage
     else if (state == "stun")
     {
         vulnerable = true;
