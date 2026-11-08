@@ -14,6 +14,7 @@ timer = 0;
 cooldown = 0;
 health = 100;
 global.playerscore = 0;
+key_collected = 0;
 
 mana = 100;
 max_mana = 100;
