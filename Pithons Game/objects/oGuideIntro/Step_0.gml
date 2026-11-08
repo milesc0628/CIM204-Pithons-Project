@@ -1,13 +1,16 @@
 /// oGuideIntro - Step Event
-/// Plays King Atlas's intro the first time the game starts.
-/// After a restart, plays a short reminder instead.
+/// Plays King Atlas's full intro the first time the game starts.
 /// Runs once, then removes itself.
+///
+/// The short "Rise, Alcyone" reminder after dying is NOT here.
+/// It lives in oDialogue's Room Start event, because Room1 is
+/// Persistent and this object doesn't come back after it's deleted.
 
 // Wait until the dialogue box exists in the room
 if (!instance_exists(oDialogue)) exit;
 
 // Make the "intro seen?" flag the first time.
-// Global variables keep their value even when the room restarts.
+// Global variables keep their value even when the room changes.
 if (!variable_global_exists("intro_seen")) {
     global.intro_seen = false;
 }
@@ -28,11 +31,6 @@ if (!global.intro_seen) {
         ]);
     }
     global.intro_seen = true;
-} else {
-    // After a restart: short reminder
-    with (oDialogue) {
-        start_dialogue("King Atlas", ["Rise, Alcyone. The Bull Moon has not yet risen. Try again."]);
-    }
 }
 
 // Job done, remove this object

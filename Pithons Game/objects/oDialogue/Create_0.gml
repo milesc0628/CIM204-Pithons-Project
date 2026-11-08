@@ -26,4 +26,12 @@ start_dialogue = function(_speaker, _lines) {
         frozen_x = oPlayer.x;
         frozen_y = oPlayer.y;
     }
+
+    // Remember where every walking enemy is right now,
+    // so End Step can hold them in place while the box is open.
+    // (This stores a value on each enemy; it doesn't change their code.)
+    with (oEnemy) {
+        dialogue_freeze_x = x;
+        dialogue_freeze_y = y;
+    }
 };

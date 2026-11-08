@@ -1,7 +1,7 @@
 draw_self();
 // Health bar size
-var bar_width = 60;
-var bar_height = 8;
+var bar_width = 120;
+var bar_height = 28;
 
 // Position above enemy
 var bar_x = x - bar_width / 2;
