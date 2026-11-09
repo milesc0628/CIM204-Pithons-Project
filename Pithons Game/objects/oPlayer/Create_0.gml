@@ -14,9 +14,7 @@ timer = 0;
 cooldown = 0;
 hp = 100;
 global.playerscore = 0;
+key_collected = 0;
 
-has_fire_spell = false;
-fire_cooldown = 0;
 mana = 100;
 max_mana = 100;
-game_over = false;

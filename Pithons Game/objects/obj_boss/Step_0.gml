@@ -1,3 +1,11 @@
+// DEATH CHECK
+if (hp <= 0)
+{
+    instance_create_depth(x, y, depth, oKey);
+    instance_destroy();
+    exit;
+}
+
 // Check if player exists
 if (instance_exists(oPlayer))
 {
@@ -72,4 +80,10 @@ if (instance_exists(oPlayer))
             state = "chase";
         }
     }
+}
+if (hp <= 0)
+{
+    instance_create_depth(x, y, depth, oKey);
+    instance_destroy();
+    exit;
 }

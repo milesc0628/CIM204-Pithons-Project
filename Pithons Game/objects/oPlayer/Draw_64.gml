@@ -21,7 +21,7 @@ draw_rectangle(
 );
 
 // Health amount
-var health_percent = clamp(hp / 100, 0, 1);
+var health_percent = hp / 100;
 
 // Health fill
 draw_set_color(c_red);

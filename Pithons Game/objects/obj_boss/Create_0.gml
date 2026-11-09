@@ -1,6 +1,6 @@
 // Boss Stats
-hp = 500;
-max_hp = 500;
+hp = 250;
+max_hp = 250;
 
 // Movement
 move_speed = 1.0;

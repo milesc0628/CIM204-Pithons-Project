@@ -1,30 +1,5 @@
-// =====================
-// GAME OVER CHECK
-// =====================
+if (keyboard_check_pressed(vk_shift) && mana >= 10) {
 
-if (hp <= 0)
-{
-    hp = 0;
-    game_over = true;
-}
-
-if (game_over)
-{
-    if (keyboard_check_pressed(ord("R")))
-    {
-        room_restart();
-    }
-
-    exit;
-}
-
-
-// =====================
-// DASH MOVEMENT
-// =====================
-
-if (keyboard_check_pressed(vk_shift) && mana >= 10)
-{
     var move_x = 0;
     var move_y = 0;
 
@@ -33,8 +8,7 @@ if (keyboard_check_pressed(vk_shift) && mana >= 10)
     if (keyboard_check(ord("W"))) move_y -= 1;
     if (keyboard_check(ord("S"))) move_y += 1;
 
-    if (move_x != 0 || move_y != 0)
-    {
+    if (move_x != 0 || move_y != 0) {
         x += move_x * 80;
         y += move_y * 80;
 
@@ -43,10 +17,6 @@ if (keyboard_check_pressed(vk_shift) && mana >= 10)
 }
 
 
-// =====================
-// CAMERA
-// =====================
-
 camera_set_view_pos(
     camera,
     x - camera_get_view_width(camera) / 2,
@@ -54,50 +24,12 @@ camera_set_view_pos(
 );
 
 
-// =====================
-// VICTORY CONDITION
-// =====================
-
-if (global.playerscore >= 5)
-{
+if (global.playerscore >= 5){
     room_goto(rmVictory);
 }
 
-
-// =====================
-// MANA REGENERATION
-// =====================
-
-if (mana < max_mana)
-{
+// Mana regeneration
+if (mana < max_mana) {
     mana += 1 / 10;
     mana = min(mana, max_mana);
-}
-
-
-// =====================
-// FIRE SPELL
-// =====================
-
-var fire_mana_cost = 20;
-
-if (has_fire_spell
-&& keyboard_check_pressed(ord("1"))
-&& fire_cooldown <= 0
-&& mana >= fire_mana_cost)
-{
-    var _fire = instance_create_layer(
-        x, y, "Instances", obj_fireball
-    );
-
-    _fire.target_x = mouse_x;
-    _fire.target_y = mouse_y;
-
-    mana -= fire_mana_cost;
-    fire_cooldown = 30;
-}
-
-if (fire_cooldown > 0)
-{
-    fire_cooldown -= 1;
 }

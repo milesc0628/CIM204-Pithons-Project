@@ -1,0 +1,9 @@
+home_x = x;
+home_y = y;
+owner = noone;
+shoot_timer = irandom_range(30, 90);
+shoot_cooldown = 90;
+move_timer = 0;
+keep_distance = 200; // clone backs away if you get closer than this
+image_alpha = 0.7;
+image_blend = make_colour_rgb(180, 180, 255);
