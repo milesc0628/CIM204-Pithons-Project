@@ -36,6 +36,7 @@
     {"id":{"name":"oGuideIntro","path":"objects/oGuideIntro/oGuideIntro.yy",},},
     {"id":{"name":"oGuideTrigger","path":"objects/oGuideTrigger/oGuideTrigger.yy",},},
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
+    {"id":{"name":"oOutroTrigger","path":"objects/oOutroTrigger/oOutroTrigger.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"OTurret","path":"objects/OTurret/OTurret.yy",},},
     {"id":{"name":"OTurretBullet","path":"objects/OTurretBullet/OTurretBullet.yy",},},
