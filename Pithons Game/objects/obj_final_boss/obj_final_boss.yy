@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"spr_final_boss",
+    "path":"sprites/spr_final_boss/spr_final_boss.yy",
   },
   "spriteMaskId":null,
   "visible":true,
