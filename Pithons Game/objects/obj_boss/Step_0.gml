@@ -10,6 +10,15 @@ if (hp <= 0)
 if (instance_exists(oPlayer))
 {
     var dist = point_distance(x, y, oPlayer.x, oPlayer.y);
+	
+	 if (oPlayer.x < x)
+    {
+        image_xscale = 1;  // Face left
+    }
+    else
+    {
+        image_xscale = -1; // Face right
+    }
 
     // CHASE: Follow the player
     if (state == "chase")
@@ -80,10 +89,5 @@ if (instance_exists(oPlayer))
             state = "chase";
         }
     }
-}
-if (hp <= 0)
-{
-    instance_create_depth(x, y, depth, oKey);
-    instance_destroy();
-    exit;
+	
 }

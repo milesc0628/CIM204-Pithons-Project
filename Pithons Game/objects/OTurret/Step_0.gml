@@ -18,6 +18,14 @@ if (instance_exists(oPlayer))
             shoot_timer = shoot_delay;
         }
     }
+	if (oPlayer.x < x)
+    {
+        image_xscale = 1;  // Face left
+    }
+    else
+    {
+        image_xscale = -1; // Face right
+    }
 }
 
 // Countdown shooting timer
