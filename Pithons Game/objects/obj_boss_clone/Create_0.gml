@@ -1,6 +1,6 @@
 home_x = x;
 home_y = y;
-owner = noone;
+owner = instance_find(obj_final_boss, 0);
 shoot_timer = irandom_range(30, 90);
 shoot_cooldown = 90;
 move_timer = 0;

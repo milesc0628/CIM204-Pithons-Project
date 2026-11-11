@@ -169,16 +169,44 @@
     {"name":"inst_2C41DE64","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_29ACCACA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_13A64AAA","path":"rooms/Room1/Room1.yy",},
+<<<<<<< Updated upstream
     {"name":"inst_77DF0571","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6858DDDB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_31956E1A","path":"rooms/Room1/Room1.yy",},
+=======
+    {"name":"inst_120514E7","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3F0E77F9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_44B0D282","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1DB32C09","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4BBA4D10","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_6CED3D5B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_65729904","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_13D22215","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_57C43BD4","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_F0F80E9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_50DBF6C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_6C4F34E9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5F7A883C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5C5B1D65","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_C60B3ED","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2F7D804B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2F3B8716","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2C9F9000","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_70C27312","path":"rooms/Room1/Room1.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+<<<<<<< Updated upstream
         {"$GMRInstance":"v4","%Name":"inst_77DF0571","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77DF0571","objectId":{"name":"Fire_Grim","path":"objects/Fire_Grim/Fire_Grim.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-8768.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_6858DDDB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6858DDDB","objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":35.4,"scaleY":12.733334,"x":-3360.0,"y":-8832.0,},
         {"$GMRInstance":"v4","%Name":"inst_31956E1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31956E1A","objectId":{"name":"obj_final_boss","path":"objects/obj_final_boss/obj_final_boss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.632353,"scaleY":10.101888,"x":6272.0,"y":-13312.0,},
+=======
+        {"$GMRInstance":"v4","%Name":"inst_13D22215","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13D22215","objectId":{"name":"Fire_Grim","path":"objects/Fire_Grim/Fire_Grim.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":-832.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2C9F9000","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C9F9000","objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":20.733334,"scaleY":10.866667,"x":-1568.0,"y":-8192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_70C27312","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70C27312","objectId":{"name":"oKey","path":"objects/oKey/oKey.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":480.0,},
+>>>>>>> Stashed changes
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instance","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_2F881AAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F881AAD","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.35333335,"scaleY":0.38000003,"x":192.0,"y":192.0,},
