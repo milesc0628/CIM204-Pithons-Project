@@ -63,6 +63,7 @@
     {"id":{"name":"MagicBolt","path":"sprites/MagicBolt/MagicBolt.yy",},},
     {"id":{"name":"oPlayerSpritePlaceholder","path":"sprites/oPlayerSpritePlaceholder/oPlayerSpritePlaceholder.yy",},},
     {"id":{"name":"sGuideTrigger","path":"sprites/sGuideTrigger/sGuideTrigger.yy",},},
+    {"id":{"name":"spr_ash","path":"sprites/spr_ash/spr_ash.yy",},},
     {"id":{"name":"spr_bossbullet","path":"sprites/spr_bossbullet/spr_bossbullet.yy",},},
     {"id":{"name":"spr_cage","path":"sprites/spr_cage/spr_cage.yy",},},
     {"id":{"name":"spr_cagekey","path":"sprites/spr_cagekey/spr_cagekey.yy",},},
