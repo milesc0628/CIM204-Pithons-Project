@@ -1,2 +1,2 @@
-health -= 20;
+health -= 10;
 instance_destroy(other);

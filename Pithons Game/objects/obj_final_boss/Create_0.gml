@@ -1,5 +1,5 @@
-hp = 100;
-max_hp = 100;
+hp = 300;
+max_hp = 300;
 vulnerable = false;
 
 state = "chase";

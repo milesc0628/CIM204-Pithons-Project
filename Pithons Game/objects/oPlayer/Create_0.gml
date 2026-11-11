@@ -15,6 +15,7 @@ cooldown = 0;
 hp = 100;
 global.playerscore = 0;
 key_collected = 0;
+cagekey_collected = 0;
 
 has_fire_spell = false;
 fire_cooldown = 0;

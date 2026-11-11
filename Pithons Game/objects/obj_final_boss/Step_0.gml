@@ -128,3 +128,10 @@ if (instance_exists(oPlayer))
         }
     }
 }
+
+if (hp <= 0)
+{
+    instance_create_depth(x, y, depth, oCageKey);
+    instance_destroy();
+    exit;
+}

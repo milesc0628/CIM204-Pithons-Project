@@ -1,6 +1,6 @@
-health -= 10;
+hp -= 1;
 
-if health <= 10{
+if hp <= 0{
 	room_goto(rmGameOver);
 }
 

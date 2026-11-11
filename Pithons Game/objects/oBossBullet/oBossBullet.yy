@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
+    "name":"spr_bossbullet",
+    "path":"sprites/spr_bossbullet/spr_bossbullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

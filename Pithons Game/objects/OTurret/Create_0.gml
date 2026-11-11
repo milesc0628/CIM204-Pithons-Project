@@ -1,5 +1,5 @@
-hp = 150;
-hp_max = 150;
+Enemyhealth = 100;
+max_health = 100;
 
 shoot_range = 300;
 shoot_delay = 60;
