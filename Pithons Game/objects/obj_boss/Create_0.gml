@@ -1,9 +1,9 @@
 // Boss Stats
-hp = 200;
-max_hp = 200;
+hp = 250;
+max_hp = 250;
 
 // Movement
-move_speed = 1.0;
+move_speed = 2.0;
 
 // Shockwave Attack
 damage = 30;
@@ -21,3 +21,6 @@ shockwave_hit = false;
 // Damage Multipliers
 normal_damage_multiplier = 1;
 stun_damage_multiplier = 2;
+
+// Save the mini boss's original sprite width
+original_xscale = abs(image_xscale);

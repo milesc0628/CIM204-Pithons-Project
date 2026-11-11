@@ -8,7 +8,7 @@ var bar_x = x - bar_width / 2;
 var bar_y = y - 40;
 
 // Health percentage
-var health_percent = Enemyhealth / max_health;
+var health_percent = hp / max_health;
 
 // Background
 draw_set_color(c_black);

@@ -1,4 +1,5 @@
-Enemyhealth = 100;
+
+hp = 100;
 max_health = 100;
 
 shoot_range = 300;

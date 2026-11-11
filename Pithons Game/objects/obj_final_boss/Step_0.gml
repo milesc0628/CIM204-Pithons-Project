@@ -1,15 +1,21 @@
 
+
 // =====================================
-// FINAL BOSS STEP EVENT
+// BOSS DEATH CHECK - DROP KEY
 // =====================================
 
-// DEATH CHECK
 if (hp <= 0)
 {
+    // Drop key at boss position
     instance_create_depth(x, y, depth, oCageKey);
+
+    // Destroy boss
     instance_destroy();
+
+    // Stop running the Step Event
     exit;
 }
+
 
 // =====================================
 // WAKE UP BOSS

@@ -1,3 +1,4 @@
+
 // Check if the player exists
 if (instance_exists(oPlayer))
 {

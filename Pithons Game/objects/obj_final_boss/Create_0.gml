@@ -1,4 +1,4 @@
-hp = 300;
+hp = 3;
 max_hp = 300;
 vulnerable = false;
 
@@ -57,7 +57,7 @@ melee_timer = 0;
 // =====================================
 
 aggro = false;
-aggro_range = 300;
+aggro_range = 3;
 move_timer = 0;
 
 // =====================================
