@@ -1,0 +1,1 @@
+image_angle = point_direction(0, 0, hspeed, vspeed);

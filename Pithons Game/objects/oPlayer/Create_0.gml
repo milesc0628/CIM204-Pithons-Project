@@ -22,3 +22,8 @@ fire_cooldown = 0;
 mana = 100;
 max_mana = 100;
 game_over = false;
+
+dash_preview_x = x;
+dash_preview_y = y;
+dash_preview_active = false;
+fire_spell_used = false;

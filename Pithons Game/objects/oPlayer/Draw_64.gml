@@ -35,6 +35,43 @@ draw_rectangle(
 
 
 // =====================
+
+
+if (has_fire_spell && !fire_spell_used)
+{
+    var gui_w = display_get_gui_width();
+    var gui_h = display_get_gui_height();
+
+    // Tutorial box
+    draw_set_alpha(0.8);
+    draw_set_color(c_black);
+
+    draw_rectangle(
+        gui_w / 2 - 130,
+        gui_h - 110,
+        gui_w / 2 + 130,
+        gui_h - 55,
+        false
+    );
+
+    // Tutorial text
+    draw_set_alpha(1);
+    draw_set_color(c_white);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+
+    draw_text(
+        gui_w / 2,
+        gui_h - 82,
+        "Press [1] to cast Fireball!"
+    );
+
+    // Reset drawing settings
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    draw_set_alpha(1);
+    draw_set_color(c_white);
+}
 // MANA BAR
 // =====================
 

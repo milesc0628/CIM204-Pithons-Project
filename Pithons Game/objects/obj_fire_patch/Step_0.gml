@@ -19,6 +19,7 @@ if (damage_timer <= 0) {
 
         if (_enemy.Enemyhealth <= 0) {
             with (_enemy) {
+				oPlayer.max_mana += 10;
                 instance_destroy();
             }
         }

@@ -4,3 +4,4 @@ life_timer = room_speed * 3;
 damage = 5;
 damage_interval = room_speed * 0.5; // Damage every 0.5 seconds
 damage_timer = 0;
+image_alpha = 0.6;
