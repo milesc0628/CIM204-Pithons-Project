@@ -1,10 +1,15 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 1343BE08
-/// @DnDArgument : "var" "other.cagekey_collected"
-/// @DnDArgument : "value" "1"
-if(other.cagekey_collected == 1){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 3326DFC4
-	/// @DnDParent : 1343BE08
-	instance_destroy();}
+/// @DnDHash : 1230B5FE
+/// @DnDArgument : "code" "if(other.cagekey_collected == 1)$(13_10){$(13_10)	instance_destroy();$(13_10)}"
+if(other.cagekey_collected == 1)
+{
+	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 28833852
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "	global.playerscore"
+	global.playerscore = 1;

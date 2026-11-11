@@ -58,7 +58,7 @@ camera_set_view_pos(
 // VICTORY CONDITION
 // =====================
 
-if (global.playerscore >= 5)
+if (global.playerscore >= 1)
 {
     room_goto(rmVictory);
 }
