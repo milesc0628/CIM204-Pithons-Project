@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Pithons Game",
-    "path":"Pithons Game.yyp",
+    "name":"Walls",
+    "path":"folders/Walls.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
