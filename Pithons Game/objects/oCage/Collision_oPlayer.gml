@@ -6,10 +6,3 @@ if(other.cagekey_collected == 1)
 {
 	instance_destroy();
 }
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 28833852
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "	global.playerscore"
-	global.playerscore = 1;

@@ -50,6 +50,7 @@
     {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},},
     {"id":{"name":"oMagicBolt","path":"objects/oMagicBolt/oMagicBolt.yy",},},
     {"id":{"name":"oMiniBossDoor","path":"objects/oMiniBossDoor/oMiniBossDoor.yy",},},
+    {"id":{"name":"oOutroTrigger","path":"objects/oOutroTrigger/oOutroTrigger.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oPrincess","path":"objects/oPrincess/oPrincess.yy",},},
     {"id":{"name":"OTurret","path":"objects/OTurret/OTurret.yy",},},

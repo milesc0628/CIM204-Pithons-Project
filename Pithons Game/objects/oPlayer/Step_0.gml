@@ -132,10 +132,10 @@ camera_set_view_pos(
 // VICTORY CONDITION
 // =====================
 
-if (global.playerscore >= 1)
-{
-    room_goto(rmVictory);
-}
+//if (global.playerscore >= 1)
+//{
+  //  room_goto(rmVictory);
+//}
 
 
 // =====================
