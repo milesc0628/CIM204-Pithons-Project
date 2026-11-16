@@ -144,7 +144,7 @@ camera_set_view_pos(
 
 if (mana < max_mana)
 {
-    mana += 1 / 10;
+    mana += mana_regen_rate;
     mana = min(mana, max_mana);
 }
 

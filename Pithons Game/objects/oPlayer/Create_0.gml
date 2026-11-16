@@ -27,3 +27,5 @@ dash_preview_x = x;
 dash_preview_y = y;
 dash_preview_active = false;
 fire_spell_used = false;
+mana_regen_rate = 1/10
+health_regen = 10
