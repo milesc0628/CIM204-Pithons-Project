@@ -1,26 +1,37 @@
-// Boss Stats
-hp = 250;
-max_hp = 250;
+// =====================================
+// BOSS STATS
+// =====================================
+hp = 200;
+max_hp = 200;
 
-// Movement
-move_speed = 2.0;
+// =====================================
+// MOVEMENT
+// =====================================
+move_speed = 1.0;
 
-// Shockwave Attack
+// Boss starts asleep
+aggro = false;
+
+// =====================================
+// SHOCKWAVE ATTACK
+// =====================================
 damage = 30;
 attack_range = 120;
-charge_time = 45;       // 0.75 seconds
-stun_time = 90;         // 1.5 seconds
-attack_cooldown = 45;   // 0.75 seconds
+charge_time = 45;
+stun_time = 90;
+attack_cooldown = 45;
 
-// Boss State
+// =====================================
+// BOSS STATE
+// =====================================
 state = "chase";
 state_timer = 0;
+
 vulnerable = false;
 shockwave_hit = false;
 
-// Damage Multipliers
+// =====================================
+// DAMAGE MULTIPLIERS
+// =====================================
 normal_damage_multiplier = 1;
 stun_damage_multiplier = 2;
-
-// Save the mini boss's original sprite width
-original_xscale = abs(image_xscale);

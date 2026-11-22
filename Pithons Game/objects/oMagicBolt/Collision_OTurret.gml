@@ -1,5 +1,8 @@
+other.Enemyhealth -= 10;
 
-other.hp = max(0, other.hp - 10);
+if (other.Enemyhealth <= 0) {
+    instance_destroy(other);
+	oPlayer.hp += oPlayer.health_regen
+}
 
-// Destroy magic bolt after hitting turret
 instance_destroy();

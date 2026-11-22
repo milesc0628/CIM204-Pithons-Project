@@ -112,7 +112,7 @@ if (state == "glow")
 
     if (shoot_timer <= 0)
     {
-        boss_shoot(x, y, 9);
+        boss_shoot(x, y, 10);
         shoot_timer = shoot_cooldown;
     }
 
@@ -170,7 +170,7 @@ else if (state == "chase")
 
     if (shoot_timer <= 0)
     {
-        boss_shoot(x, y, 4);
+        boss_shoot(x, y, 10);
         shoot_timer = shoot_cooldown;
     }
 

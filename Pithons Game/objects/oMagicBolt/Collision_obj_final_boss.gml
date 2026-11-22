@@ -1,4 +1,3 @@
-
 with (other)
 {
     // Damage boss

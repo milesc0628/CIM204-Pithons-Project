@@ -1,2 +1,9 @@
+// Lifetime countdown
+life_timer--;
+// Face direction of travel
+image_angle = direction;
 
-// Empty for testing
+if (life_timer <= 0)
+{
+    instance_destroy();
+}
