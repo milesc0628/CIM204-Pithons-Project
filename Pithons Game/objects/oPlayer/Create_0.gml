@@ -10,6 +10,7 @@ camera = camera_create_view(
 
 view_camera[0] = camera;
 
+image_speed= 0;
 timer = 0;
 cooldown = 0;
 hp = 100;

@@ -10,6 +10,18 @@ if (hp <= 0)
 if (instance_exists(oPlayer))
 {
     var dist = point_distance(x, y, oPlayer.x, oPlayer.y);
+
+if (!aggro)
+{
+    if (dist <= aggro_range || hp < max_hp)
+    {
+        aggro = true;
+    }
+    else
+    {
+        exit;
+    }
+}	
 	
 	 if (oPlayer.x < x)
     {

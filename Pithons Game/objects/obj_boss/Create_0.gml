@@ -1,3 +1,6 @@
+// Inherit the parent event
+event_inherited();
+
 // Boss Stats
 hp = 200;
 max_hp = 200;
@@ -11,6 +14,8 @@ attack_range = 120;
 charge_time = 45;       // 0.75 seconds
 stun_time = 90;         // 1.5 seconds
 attack_cooldown = 45;   // 0.75 seconds
+aggro = false;
+aggro_range = 300;
 
 // Boss State
 state = "chase";

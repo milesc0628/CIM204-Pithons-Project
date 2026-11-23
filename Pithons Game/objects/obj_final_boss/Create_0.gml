@@ -24,6 +24,9 @@ damage = 20;
 split_stage = 0;
 split_ends_on_hit = false;
 
+// Inherit the parent event
+event_inherited();
+
 // Boss starting position
 home_x = x;
 home_y = y;

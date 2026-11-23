@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fireball",
-    "path":"sprites/spr_fireball/spr_fireball.yy",
+    "name":"Sprite21",
+    "path":"sprites/Sprite21/Sprite21.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,3 +1,6 @@
+// Inherit the parent event
+event_inherited();
+
 Enemyhealth = 100;
 max_health = 100;
 
